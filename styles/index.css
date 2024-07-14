@@ -34,6 +34,20 @@ section img{
     flex-direction: column;
     justify-content: start;
 }
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    border: none;
+}
+.btn1{
+    margin-top: 20px;
+    display: flex;
+gap: 10px;}
 header{
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
