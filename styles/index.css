@@ -198,4 +198,7 @@ margin-bottom: 24px;
     .left{
         margin-bottom: 50px;
     }
+    footer,.resume,.about-me,.what-I-do{
+        margin-top: 50px;
+    }
 }
