@@ -47,7 +47,8 @@ section img{
 .btn1{
     margin-top: 20px;
     display: flex;
-gap: 10px;}
+gap: 10px;
+}
 header{
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
@@ -181,6 +182,9 @@ margin-bottom: 24px;
         padding: 80px;
         background-image:none;
     }
+    nav h3{
+        margin-bottom: 20px;
+    }
     nav{
         flex-direction: column;
         justify-content: center;
@@ -214,5 +218,13 @@ margin-bottom: 24px;
     }
     footer,.resume,.about-me,.what-I-do{
         margin-top: 50px;
+    }
+    .btn{
+        font-size: 10;
+        width: 100px;
+        height: 50px;
+    }
+    .btn1{
+        margin-bottom: 40px;
     }
 }
