@@ -6,6 +6,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
     gap: 51px;
 }
 nav ul li{
@@ -227,4 +228,27 @@ margin-bottom: 24px;
     .btn1{
         margin-bottom: 40px;
     }
+}
+@media screen and (min-width:576px) and (max-width:1024px) {
+
+    section,.skills,footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section img{
+        width: 100%;
+        margin-top: 60px;
+    }
+    header{
+        padding: 80px;
+        background-image:none;
+    }
+    footer,.resume,.about-me,.what-I-do{
+        margin-top: 50px;
+    }
+    .head{
+        width: 80%;   
+    }
+    
 }
